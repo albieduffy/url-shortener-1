@@ -10,6 +10,7 @@
   <body>
   <section class="section">
     <div class="container">
+      <h1 class="title is-1 has-text-primary has-text-centered is-uppercase">New URL</h1>
             <div class="field">
                 <label class="label">Original URL</label>
                 <div class="control">
@@ -22,6 +23,8 @@
                         <input class="input" type="text" name="original_url" value="{{ url_for('short.redirect_to_url', short_url=new_link, _external=True) }}">
                     </div>
             </div>
+            <!-- <button><a href="/stats">All URLs</a></button> -->
+            <button type="submit" class="button is-rounded is-primary is-outlined"><a href="/stats" style="text-decoration: none; color: black;">All URLs</a></button>
     </div>
   </section>
   </body>
