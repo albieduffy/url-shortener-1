@@ -10,17 +10,19 @@
 </head>
 
 <body>
-    <section class="section">
-        <div class="container">
-            <table class="table">
-                <thead>
+    
+    <section class="section mgh-medium">
+        <div class="container ">
+            <h1 class="title is-1 has-text-primary has-text-centered is-uppercase">All Stats</h1>
+            <table class="table is-hoverable is-fullwidth">
+                <thead class="has-background-primary">
                     <tr>
                         <th>Original URL</th>
                         <th>Short URL</th>
                         <th>Visits</th>
                     </tr>
                 </thead>
-                <tfoot>
+                <tfoot class="has-background-primary">
                     <tr>
                         <th>Original URL</th>
                         <th>Short URL</th>
@@ -37,6 +39,7 @@
                     {% endfor %}
                 </tbody>
             </table>
+            <button type="submit" class="button is-rounded is-primary is-outlined"><a href="/" style="text-decoration: none; color: black;">Home</a></button>
         </div>
     </section>
 </body>
