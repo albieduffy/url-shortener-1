@@ -12,6 +12,8 @@
 <body>
     <section class="section">
         <div class="container">
+            <h1 class="title is-1 has-text-primary has-text-centered is-uppercase">URL Shortener</h1>
+            <br>
             <form method="POST" action="{{ url_for('short.add_link') }}">
                 <div class="field">
                     <label class="label">Original URL</label>
@@ -21,7 +23,7 @@
 
                 </div>
                 <div class="control">
-                    <button type="submit" class="button is-info">Shorten</button>
+                    <button type="submit" class="button is-rounded is-primary is-outlined">Shorten</button>
                 </div>
 
             </form>
