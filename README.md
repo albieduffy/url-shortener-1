@@ -4,7 +4,7 @@ Created using Python and Flask
 
 ## Instructions
 
-Run `pipenv install` 
+Run `pipenv install` and `pipenv shell`.
 
 Then run `flask run`.
 
